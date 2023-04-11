@@ -97,7 +97,7 @@ def word_cloud(data):
     # Generate wordcloud
     word_data = case_folding(data['TWEETS'])
     text = " ".join(review for review in word_data)
-    mask = np.array(Image.open("cloud.png"))
+    mask = np.array(Image.open("images/cloud.png"))
     wordcloud = WordCloud(background_color="white", mask=mask).generate(text)
     # Display the generated image:
     fig, ax = plt.subplots()

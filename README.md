@@ -67,5 +67,5 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 
 <!-- MARKDOWN LINK & IMAGE -->
 
-[twitter-sentiment-analysis-screenshot]: image/readme.jpeg
+[twitter-sentiment-analysis-screenshot]: images/readme.jpeg
 [python.org]: https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue
