@@ -131,7 +131,7 @@ def download(final):
     # Loop through values
     for row in final.itertuples(index=False):
         for val in row:
-            result_str += str(val) + ';'
+            result_str += str(val).replace('\n', ' ') + ';'
         result_str += '\n'
     return result_str
 
@@ -147,4 +147,4 @@ if st.button("Analyze") and query != '':
     st.pyplot(chart(get_percentage(data_sentiment)))
     st.download_button(label='Download CSV', data=download, file_name='Twitter Sentiment Analysis.csv', mime='text/csv')
 else :
-    st.caption("Contoh Query: :a - iphone:a - @jokowi:a - #covid:a - from:911:a - pemilu since:2023-01-01 until:2023-01-02")
+    st.caption("Queries Example: :a - iphone:a - @jokowi:a - #covid:a - from:911:a - pemilu since:2023-01-01 until:2023-01-02")
