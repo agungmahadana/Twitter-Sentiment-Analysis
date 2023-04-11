@@ -1,0 +1,10 @@
+regex==2023.3.23
+numpy==1.24.2
+pandas==2.0.0
+Pillow==9.5.0
+textblob==0.17.1
+matplotlib==3.7.1
+wordcloud==1.8.2.2
+snscrape==0.6.2.20230320
+deep-translator==1.10.1
+vaderSentiment==3.3.2
