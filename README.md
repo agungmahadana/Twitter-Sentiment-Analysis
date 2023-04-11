@@ -6,7 +6,7 @@
 
 ![Twitter Sentiment Analysis Screen Shot][twitter-sentiment-analysis-screenshot]
 
-[Twitter Sentiment Analysis](...) is a web-based application that can analyze the sentiment of tweets based on the VADER (Valence Aware Dictionary and Sentiment Reasoner) algorithm. This app allows users to enter a query (keyword, hashtag, etc.) to search for tweets and generates a sentiment score.
+[Twitter Sentiment Analysis](https://agungmahadana-twitter-sentiment-analysis-main-1bfepq.streamlit.app/) is a web-based application that can analyze the sentiment of tweets based on the VADER (Valence Aware Dictionary and Sentiment Reasoner) algorithm. This app allows users to enter a query (keyword, hashtag, etc.) to search for tweets and generates a sentiment score.
 
 Use the `README.md` to get started.
 
